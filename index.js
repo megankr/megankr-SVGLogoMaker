@@ -1,6 +1,6 @@
 const inquerer = require('inquerer');
 const fs = require('fs');
-const { Triangle, Square, Circle } = require('./lib/shapes.js');
+const { Circle, Triangle, Square } = require('./lib/shapes.js');
 
 const userInput = [
     {
@@ -10,23 +10,23 @@ const userInput = [
     },
     {
         type: 'input',
-        name: 'textColor'
+        name: 'textColor',
         message: 'Input a color for the text. Enter a hex number or color name:'
     
     },
     {
         type: 'list',
         name: 'shape',
-        message: 'Choose a shape for your logo:'
+        message: 'Choose a shape for your logo:',
         choices: [
-            'Triangle',
             'Circle',
+            'Triangle',
             'Square',
         ]
     },
     {
         type: 'input',
-        name: 'shapeColor'
+        name: 'shapeColor',
         message: 'Input a color for the shape. Enter hex number or color nanme:'
     }
 ]
