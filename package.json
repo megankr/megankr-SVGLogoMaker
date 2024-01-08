@@ -1,0 +1,17 @@
+{
+  "name": "megankr-svglogomaker",
+  "version": "1.0.0",
+  "description": "A repository for the U of M Coding Bootcamp Challenge 10, an SVG Logo Maker.",
+  "main": "index.js",
+  "directories": {
+    "example": "examples"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "jest": "^29.7.0"
+  }
+}
