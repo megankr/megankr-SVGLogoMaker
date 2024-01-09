@@ -1,4 +1,4 @@
-const inquerer = require('inquerer');
+const inquirer = require('inquirer');
 const fs = require('fs');
 const { Circle, Triangle, Square } = require('./lib/shapes.js');
 
@@ -30,3 +30,10 @@ const userInput = [
         message: 'Input a color for the shape. Enter hex number or color nanme:'
     }
 ]
+
+inquirer.prompt(userInput).then(response) =>
+
+// ***REMOVE LATER*** In-class example showing writeFile
+// fs.writeFile("car_results.txt", JSON.stringify(response), (err) => {
+//     err ? console.log("error", err) : console.log("Success!");
+//   });
